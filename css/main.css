@@ -154,6 +154,7 @@ img {
 }
 
 .logo--blue {
+  margin-right: 0;
   color: var(--accent-text-color);
 }
 

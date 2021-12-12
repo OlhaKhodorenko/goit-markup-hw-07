@@ -1,14 +1,15 @@
-.about {
+.section--no-padding-top {
   padding-top: 0;
 }
-.about__list {
+.about {
   display: flex;
-  .about__item {
-    position: relative;
-    margin-right: 30px;
-    &:last-child {
-      margin-right: 0;
-    }
+}
+.about__item {
+  position: relative;
+  margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0;
   }
 }
 

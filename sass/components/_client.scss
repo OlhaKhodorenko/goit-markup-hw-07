@@ -1,14 +1,14 @@
-.client__list {
+.client {
   display: flex;
+}
 
-  .client__item {
-    margin-right: 30px;
-    width: 170px;
-    height: 92px;
+.client__item {
+  margin-right: 30px;
+  width: 170px;
+  height: 92px;
 
-    &:last-child {
-      margin-right: 0;
-    }
+  &:last-child {
+    margin-right: 0;
   }
 }
 
